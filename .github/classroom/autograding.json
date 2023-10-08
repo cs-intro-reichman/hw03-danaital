@@ -1,0 +1,208 @@
+{
+    "tests": [
+    {
+    "name": "lowercase test 1",
+    "setup": "javac lowercase.java",
+    "run": "java lowercase B2C",
+    "input": "",
+    "output": "b2c",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 1.5
+    },
+    {
+      "name": "lowercase test 2",
+      "setup": "javac lowercase.java",
+      "run": "java lowercase \"TLV to LA: 15 Hours.\"",
+      "input": "",
+      "output": "tlv to la: 15 hours.",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1.5
+    },
+    {
+        "name": "lowercase test 3",
+        "setup": "javac lowercase.java",
+        "run": "java lowercase HelloWorld",
+        "input": "",
+        "output": "helloworld",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 1.5
+      },
+      {
+        "name": "lowercase test 4",
+        "setup": "javac lowercase.java",
+        "run": "java lowercase \"JavaROCKS!\"",
+        "input": "",
+        "output": "javarocks!",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 1.5
+      },
+      {
+        "name": "lowercase test 5",
+        "setup": "javac lowercase.java",
+        "run": "java lowercase \"ThIs Is SoMeTeXt.\"",
+        "input": "",
+        "output": "this is sometext.",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 1.5
+      },
+      {
+        "name": "lowercase test 6",
+        "setup": "javac lowercase.java",
+        "run": "java lowercase TheQuickBrownFox",
+        "input": "",
+        "output": "thequickbrownfox",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 1.5
+      },
+      {
+        "name": "lowercase test 7",
+        "setup": "javac lowercase.java",
+        "run": "java lowercase \"JUMPsOverTheLazyDog!\"",
+        "input": "",
+        "output": "jumpsoverthelazydog!",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 1.5
+      },
+      {
+        "name": "lowercase test 8",
+        "setup": "javac lowercase.java",
+        "run": "java lowercase XYZ@123",
+        "input": "",
+        "output": "xyz@123",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 1.5
+      },
+      {
+        "name": "lowercase test 9",
+        "setup": "javac lowercase.java",
+        "run": "java lowercase \"mIXEdCaSE+Symbols\"",
+        "input": "",
+        "output": "mixedcase+symbols",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 1.5
+      },
+      {
+        "name": "lowercase test 10",
+        "setup": "javac lowercase.java",
+        "run": "java lowercase \"AaBbCcDdEe\"",
+        "input": "",
+        "output": "aabbccdde",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 1.5
+      },
+      [
+        {
+          "name": "uniquechars test 1",
+          "setup": "javac uniquechars.java",
+          "run": "java uniquechars programming",
+          "input": "",
+          "output": "progamin",
+          "comparison": "exact",
+          "timeout": 10,
+          "points": 1.5
+        },
+        {
+          "name": "uniquechars test 2",
+          "setup": "javac uniquechars.java",
+          "run": "java uniquechars \"alphabet soup\"",
+          "input": "",
+          "output": "alphbet sou",
+          "comparison": "exact",
+          "timeout": 10,
+          "points": 1.5
+        },
+        {
+          "name": "uniquechars test 3",
+          "setup": "javac uniquechars.java",
+          "run": "java uniquechars repetition",
+          "input": "",
+          "output": "reption",
+          "comparison": "exact",
+          "timeout": 10,
+          "points": 1.5
+        },
+        {
+          "name": "uniquechars test 4",
+          "setup": "javac uniquechars.java",
+          "run": "java uniquechars elephant",
+          "input": "",
+          "output": "elphant",
+          "comparison": "exact",
+          "timeout": 10,
+          "points": 1.5
+        },
+        {
+          "name": "uniquechars test 5",
+          "setup": "javac uniquechars.java",
+          "run": "java uniquechars \"umbrella academy\"",
+          "input": "",
+          "output": "umbrela cady",
+          "comparison": "exact",
+          "timeout": 10,
+          "points": 1.5
+        },
+        {
+          "name": "uniquechars test 6",
+          "setup": "javac uniquechars.java",
+          "run": "java uniquechars \"back to the future\"",
+          "input": "",
+          "output": "back to he fur",
+          "comparison": "exact",
+          "timeout": 10,
+          "points": 1.5
+        },
+        {
+          "name": "uniquechars test 7",
+          "setup": "javac uniquechars.java",
+          "run": "java uniquechars impossible",
+          "input": "",
+          "output": "imposble",
+          "comparison": "exact",
+          "timeout": 10,
+          "points": 1.5
+        },
+        {
+          "name": "uniquechars test 8",
+          "setup": "javac uniquechars.java",
+          "run": "java uniquechars \"!@#$%^&*()!@#$%^&*()\"",
+          "input": "",
+          "output": "!@#$%^&*()",
+          "comparison": "exact",
+          "timeout": 10,
+          "points": 1.5
+        },
+        {
+          "name": "uniquechars test 9",
+          "setup": "javac uniquechars.java",
+          "run": "java uniquechars pineapple",
+          "input": "",
+          "output": "pineapl",
+          "comparison": "exact",
+          "timeout": 10,
+          "points": 1.5
+        },
+        {
+          "name": "uniquechars test 10",
+          "setup": "javac uniquechars.java",
+          "run": "java uniquechars \"a quick brown fox\"",
+          "input": "",
+          "output": "a quick brown fx",
+          "comparison": "exact",
+          "timeout": 10,
+          "points": 1.5
+        }
+      ]
+      
+
+  ]
+}
